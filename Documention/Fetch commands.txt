@@ -1,0 +1,58 @@
+Used (sorted by group)
+----------------------------------------------
+FETCh[:SCALar]:VOLTage[:AC]? 
+FETCh[:SCALar]:LTLVoltage[:AC]? 
+FETCh[:SCALar]:FREQuency? 
+FETCh[:SCALar]:CURRent[:AC]? 
+FETCh[:SCALar]:CURRent:CFACtor? 
+
+FETCh[:SCALar]:POWer[:REAL]? 
+FETCh[:SCALar]:POWer:APParent? 
+FETCh[:SCALar]:POWer:REACtive? 
+FETCh[:SCALar]:POWer:PFACtor? 
+
+FETCh[:SCALar]:WHOur[:ACTive]:POSitive? 
+FETCh[:SCALar]:WHOur[:ACTive]:NEGative?
+
+
+Used (Fettch all but no Wh)
+----------------------------------------------
+FETCh[:SCALar]? 
+
+
+Awailable but not used
+----------------------------------------------
+FETCh[:SCALar]:CURRent:DC? 
+FETCh[:SCALar]:VOLTage:DC? 
+FETCh[:SCALar]:CURRent:AMPlitude:MAXimum:POSitive? 
+FETCh[:SCALar]:CURRent:AMPlitude:MAXimum:NEGative? 
+FETCh[:SCALar]:CURRent:AMPlitude:MAXimum? 
+FETCh[:SCALar]:VOLTage:AMPlitude:MAXimum? 
+FETCh[:SCALar]:VOLTage:AMPlitude:MAXimum:POSitive? 
+FETCh[:SCALar]:VOLTage:AMPlitude:MAXimum:NEGative? 
+FETCh[:SCALar]:POWer[:REAL]:TOTal? 
+FETCh[:SCALar]:POWer:APParent:TOTal? 
+FETCh[:SCALar]:POWer:REACtive:TOTal? 
+
+FETCh[:SCALar]:VOLTage:HARMonic[:AMPLitude]? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:CURRent:HARMonic[:AMPLitude]? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:VOLTage:HARMonic:DISTort? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:CURRent:HARMonic:DISTort? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:VOLTage:HARMonic:PHASe? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:CURRent:HARMonic:PHASe? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:VOLTage:HARMonic:THD? <[A|B|C|CH1|CH2|CH3]>
+FETCh[:SCALar]:CURRent:HARMonic:THD? <[A|B|C|CH1|CH2|CH3]> 
+FETCh[:SCALar]:ARRay:VOLTage:HARMonic[:AMPLitude]? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:ARRay:CURRent:HARMonic[:AMPLitude]? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:ARRay:VOLTage:HARMonic:PHASe? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:ARRay:CURRent:HARMonic:PHASe? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:ARRay:VOLTage:HARMonic:DISTort? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+FETCh[:SCALar]:ARRay:CURRent:HARMonic:DISTort? <[A|B|C|CH1|CH2|CH3]>,<NR1> 
+
+FETCh[:SCALar]:WHOur[:ACTive][:SUM]? 
+FETCh[:SCALar]:AHOur[:ACTive][:SUM]? 
+FETCh[:SCALar]:AHOur[:ACTive]:POSitive? 
+FETCh[:SCALar]:AHOur[:ACTive]:NEGative? 
+FETCh[:SCALar]:ENERgy:TIME? 
+
+

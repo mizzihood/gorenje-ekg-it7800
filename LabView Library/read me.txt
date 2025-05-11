@@ -1,0 +1,20 @@
+Install library under:
+C:\Program Files\National Instruments\LabVIEW 20xx\instr.lib\IT7800
+
+
+IT7800/
+|----Public/ 
+|       |----
+|       |...
+|----Examples/
+|       |...
+|----Private/
+|       |----
+|       |...
+|----about.txt
+|----IT7800 Readme.html
+|----IT7800.aliases
+|----IT7800.lvlib
+|----IT7800.lvps
+|----IT7800.lvproj
+	
