@@ -1,3 +1,7 @@
+V0.14 (21.05.2025)
+-Added Typedefs for data and info clusters
+-Converted kWh to Wh in ACQ.vi
+
 V0.13 (21.05.2025)
 ======================================================
 -Added extra parser for 3PH power supplies
