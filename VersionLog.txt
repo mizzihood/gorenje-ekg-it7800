@@ -1,7 +1,30 @@
+V0.13 (21.05.2025)
+======================================================
+-Added extra parser for 3PH power supplies
+-Added extra cluster for three phase output. Original cluster as averaged 
+ 3PH values if 3PH power supply detected. If 1PH power supply 3PH cluster shows only phase 1
+
+"IT7800 Driver Test.vi"
+-Added three phase config
+-Added automatic phase config display
+-Added automatic values read out during output ON
+-Added buttons disabled logic when buttons is not expected to be working
+-Added new parser if three phase PSU output detected
+-Added custom request / response testing page
+-Added option to disable ACQ periodic reading
+-Added AQC reading LED (State change for every reading)
+
+V0.12 (14.05.2025)
+======================================================
+-Fixed missing \n after queries in "IT7800 ACQ.vi"
+-Changed Initialize function to custom version with clear VISA buffer
+-Added ::INSTR for visa handle
+
+V0.11 (14.05.2025)
+======================================================
+-Fixed "info" and "ACQ" block Error handling for scan function
+-Added Driver test with compile option
+
 V0.10 (06.05.2025)
 ======================================================
 -Initial release for first testing
-
-V0.11 (12.05.2025)
-======================================================
--Added typedef for read values
